@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { useState } from "react";
 const Footer = () => {
     const [data, setData] = useState({
@@ -81,8 +82,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="lg:col-span-4 sm:col-span-6 col-span-12">
-                            <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3">News Letter</h4>
-                            <form
+                            <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3">Legals</h4>
+                            {/* <form
                                 autoComplete="off"
                                 spellCheck="false">
                                 <div className="border border-[#484848] flex items-center">
@@ -105,7 +106,15 @@ const Footer = () => {
                                     </div>
                                     <button className="basis-[30%] __animatedPing bg-[#dee56f] block w-full text-white py-3 px-4 text-[15px] font-medium leading-tight" onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
                                 </div>
-                            </form>
+                            </form> */}
+                             <ul className="text-[#8F8F8F] text-sm">
+                                <li>
+                                    <Link href="./privacy-policy">Privacy Policy</Link>
+                                </li>
+                                <li>
+                                    <Link href="./terms-and-conditions">Terms and Condition</Link>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div className="flex flex-wrap md:justify-between justify-center xl:gap-x-5 gap-5 items-center mt-10">
