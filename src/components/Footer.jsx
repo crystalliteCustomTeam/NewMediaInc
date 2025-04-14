@@ -107,12 +107,15 @@ const Footer = () => {
                                     <button className="basis-[30%] __animatedPing bg-[#dee56f] block w-full text-white py-3 px-4 text-[15px] font-medium leading-tight" onClick={handleFormSubmit} disabled={isDisabled}>{formStatus}</button>
                                 </div>
                             </form> */}
-                             <ul className="text-[#8F8F8F] text-sm">
+                            <ul className="text-[#8F8F8F] text-sm">
                                 <li>
                                     <Link href="./privacy-policy">Privacy Policy</Link>
                                 </li>
                                 <li>
                                     <Link href="./terms-and-conditions">Terms and Condition</Link>
+                                </li>
+                                <li>
+                                    <Link href="./refund-form">Refund Form</Link>
                                 </li>
                             </ul>
                         </div>

@@ -44,14 +44,14 @@ const Home = () => {
                     "Cloud Computing",
                     "Empower your operations with scalable, secure cloud infrastructures—migration, deployment, and management done right."],
                   [Icon6,
-                    "Book Marketing",
-                    "Multi-channel promotion strategies for authors—targeted campaigns, press coverage, and digital visibility to grow readership."],
+                    "AI Chatbots",
+                    "Deliver personalized and responsive customer experiences with our AI-powered chatbots that automate routine tasks, provide instant support, and drive engagement across digital channels."],
                   [Icon6,
                     "Business Plans",
                     "Ready business plans with financial modeling, market research, and brand positioning tailored for funding success."],
                   [Icon6,
-                    "Authoring",
-                    "Professional services for books, scripts, or branded content—crafted with compelling narratives and technical accuracy."]
+                    "Cybersecurity Solutions",
+                    "Protect your valuable digital assets and safeguard your business from evolving cyber threats with our comprehensive cybersecurity solutions."]
                 ].map(([img, title, desc], i) => (
                   <div key={i} className="border-2 transition-all duration-200 ease-in-out group hover:border-[#484848] border-[#dee56f] md:rounded-[0_20px_0_20px] rounded-[20px] p-[50px_20px] text-center text-white">
                     {/* <div className="border border-[#dee56f w-max mx-auto p-5 rounded-full">
