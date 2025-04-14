@@ -51,10 +51,6 @@ const RefundPolicy = () => {
                                     <strong className="text-[#dee56f]">Email: </strong>
                                     <a href="mailto:finance@infinitimediainc.com">finance@infinitimediainc.com</a>
                                 </li>
-                                <li>
-                                    <strong className="text-[#dee56f]">Live Chat: </strong>
-                                    Available on our website
-                                </li>
                             </ul>
                         </div>
                     </div>
