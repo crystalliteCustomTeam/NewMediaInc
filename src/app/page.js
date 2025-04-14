@@ -19,7 +19,7 @@ const Home = () => {
         <div className="relative xl:py-[100px] lg:py-[80px] md:py-[60px] py-[40px] bg-[#131313]">
           <div className="container">
             <div className="sm:text-center text-justify text-white xl:w-[80%] mx-auto">
-              <h1 className="lg:text-[42px] md:text-[32px] text-[25px] leading-tight font-bold mb-3">On-Demand Services For Small And Medium Businesses Across The United States</h1>
+              <h1 className="lg:text-[42px] md:text-[32px] text-[25px] leading-tight font-bold mb-3"><span className="text-[#dee56f]">On-Demand Services</span> For Small And Medium Businesses Across The United States</h1>
               <p className="text-sm leading-normal font-normal">At Infiniti Media INC, we’re pioneers in democratizing access to technological advancement. Our mission? To ignite the digital age for businesses, offering innovative solutions and services that spark growth and prosperity. With a laser focus on customer empowerment and strategic alliances, we’re not just redefining investment; we’re revolutionizing it. Our commitment to excellence, integrity, and relentless innovation ensures that we don’t just meet expectations; we exceed them, propelling global progress forward. Join us on the journey where Infiniti Media INC open doors to boundless opportunities for individuals and communities worldwide.</p>
             </div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10 gap-7 mt-10 max-w-[1100px] mx-auto">
@@ -29,7 +29,7 @@ const Home = () => {
                     "E-Commerce",
                     "We build and optimize e-commerce platforms using secure, scalable architectures that drive conversions and seamless user experiences."],
                   [Icon2,
-                    "Performance Marketing/Digital",
+                    "Performance / Digital Marketing",
                     "Data-driven campaigns focused on measurable ROI—leveraging paid channels, conversion tracking, and dynamic content delivery"],
                   [Icon3,
                     "Organic Search Optimization",
@@ -48,7 +48,7 @@ const Home = () => {
                     "Multi-channel promotion strategies for authors—targeted campaigns, press coverage, and digital visibility to grow readership."],
                   [Icon6,
                     "Business Plans",
-                    "Investor-ready business plans with financial modeling, market research, and brand positioning tailored for funding success."],
+                    "Ready business plans with financial modeling, market research, and brand positioning tailored for funding success."],
                   [Icon6,
                     "Authoring",
                     "Professional services for books, scripts, or branded content—crafted with compelling narratives and technical accuracy."]
