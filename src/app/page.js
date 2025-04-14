@@ -33,7 +33,7 @@ const Home = () => {
                     "Data-driven campaigns focused on measurable ROI—leveraging paid channels, conversion tracking, and dynamic content delivery"],
                   [Icon3,
                     "Organic Search Optimization",
-                    "Boost your visibility with white-hat search engine strategies, keyword architecture, and content optimization for long-term search dominance."],
+                    "Boost your visibility with white-hat search strategies, keyword architecture, and content optimization for long-term search dominance."],
                   [Icon4,
                     "Mobile App Development",
                     "Custom iOS and Android apps built with cross-platform frameworks and native performance for exceptional mobile engagement."],
