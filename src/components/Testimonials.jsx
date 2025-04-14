@@ -17,7 +17,7 @@ const reviews = [
         img: one,
         name: "Jeff Williams",
         jd: "HOD",
-        review: "By partnering with Sybrid Global, we gained clarity on opportunities emerging technology presented. Their consultative approach helped align our roadmap with strategic goals, better positioning us for sustainable growth."
+        review: "By partnering with Infiniti Media INC, we gained clarity on opportunities emerging technology presented. Their consultative approach helped align our roadmap with strategic goals, better positioning us for sustainable growth."
     },
     {
         img: two,
@@ -29,7 +29,7 @@ const reviews = [
         img: three,
         name: "Sarah Johnson",
         jd: "Manager",
-        review: "As a healthcare provider, data security is paramount. Sybrid Global not only met but exceeded our expectations in ensuring the confidentiality and integrity of our sensitive information during our digital transformation. Their commitment to compliance and robust security measures gave us peace of mind throughout the process."
+        review: "As a healthcare provider, data security is paramount. Infiniti Media INC not only met but exceeded our expectations in ensuring the confidentiality and integrity of our sensitive information during our digital transformation. Their commitment to compliance and robust security measures gave us peace of mind throughout the process."
     },
     {
         img: four,
@@ -41,7 +41,7 @@ const reviews = [
         img: five,
         name: "Emily Thompson",
         jd: "Manager",
-        review: "Our partnership with Sybrid Global was instrumental in modernizing our IT infrastructure. Their strategic guidance helped us future-proof our technology stack while staying within budget and timeline constraints. Their dedication to client success is evident in the measurable improvements we've seen across our IT environment."
+        review: "Our partnership with Infiniti Media INC was instrumental in modernizing our IT infrastructure. Their strategic guidance helped us future-proof our technology stack while staying within budget and timeline constraints. Their dedication to client success is evident in the measurable improvements we've seen across our IT environment."
     }
 ]
 
