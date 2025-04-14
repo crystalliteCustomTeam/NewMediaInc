@@ -7,6 +7,7 @@ import Icon4 from "media/serviceIcon/4.png"
 import Icon5 from "media/serviceIcon/5.png"
 import Icon6 from "media/serviceIcon/5.png"
 import Banner from "media/bannerBg.png"
+import Testimonials from "../components/Testimonials";
 const Home = () => {
   return (
     <>
@@ -92,6 +93,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Testimonials />
       <section>
         <div className="relative bg-[#231F20] text-black lg:pt-[80px] md:pt-[60px] pt-[40px]">
           <div className="container">
