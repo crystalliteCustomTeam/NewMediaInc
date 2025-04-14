@@ -22,7 +22,7 @@ const RefundPolicy = () => {
                                     </li>
                                     <li className="mb-2 text-justify">
                                         <strong className="text-[#dee56f]">Final Deliverables: </strong>
-                                        No refund will be issued if there is no activity on the order for 30 days after the order is placed. To reactivate the project, you will need to pay a fee depending on the project scope.
+                                        Refund requests will not be entertained after final files have been delivered.
                                     </li>
                                     <li className="mb-2 text-justify">
                                         <strong className="text-[#dee56f]">Refund Reasons: </strong>

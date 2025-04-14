@@ -71,7 +71,7 @@ export default function Testimonials() {
                             <div className="flex [margin-left:calc(1rem_*_-1)] items-center">
                                 {
                                     reviews.map(({ img, name, jd, review }, i) => (
-                                        <div className="basis-full md:basis-1/2 xl:basis-1/3 shrink-0 grow-0 pl-4">
+                                        <div key={i} className="basis-full md:basis-1/2 xl:basis-1/3 shrink-0 grow-0 pl-4">
                                             <div className="border-2 transition-all duration-200 ease-in-out group hover:border-[#484848] border-[#dee56f] md:rounded-[0_20px_0_20px] rounded-[20px] p-[10px_20px]">
                                                 <Image src={img} alt="avatar" />
                                                 <h2 className="text-xl font-bold leading-snug mt-4 mb-1">{name}</h2>
