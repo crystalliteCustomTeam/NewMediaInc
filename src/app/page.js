@@ -29,12 +29,12 @@ const Home = () => {
                   [Icon1,
                     "E-Commerce",
                     "We build and optimize e-commerce platforms using secure, scalable architectures that drive conversions and seamless user experiences."],
-                  [Icon2,
-                    "Performance / Digital Marketing",
-                    "Data-driven campaigns focused on measurable ROI—leveraging paid channels, conversion tracking, and dynamic content delivery"],
-                  [Icon3,
-                    "Organic Search Optimization",
-                    "Boost your visibility with white-hat search strategies, keyword architecture, and content optimization for long-term search dominance."],
+                  // [Icon2,
+                  //   "Performance / Digital Marketing",
+                  //   "Data-driven campaigns focused on measurable ROI—leveraging paid channels, conversion tracking, and dynamic content delivery"],
+                  // [Icon3,
+                  //   "Organic Search Optimization",
+                  //   "Boost your visibility with white-hat search strategies, keyword architecture, and content optimization for long-term search dominance."],
                   [Icon4,
                     "Mobile App Development",
                     "Custom iOS and Android apps built with cross-platform frameworks and native performance for exceptional mobile engagement."],
@@ -54,7 +54,7 @@ const Home = () => {
                     "Cybersecurity Solutions",
                     "Protect your valuable digital assets and safeguard your business from evolving cyber threats with our comprehensive cybersecurity solutions."]
                 ].map(([img, title, desc], i) => (
-                  <div key={i} className="border-2 transition-all duration-200 ease-in-out group hover:border-[#484848] border-[#dee56f] md:rounded-[0_20px_0_20px] rounded-[20px] p-[50px_20px] text-center text-white">
+                  <div key={i} className="border-2 transition-all duration-200 ease-in-out group hover:border-[#484848] border-[#dee56f] md:rounded-[0_20px_0_20px] rounded-[20px] p-[50px_20px] text-center text-white lg:last:col-start-2">
                     {/* <div className="border border-[#dee56f w-max mx-auto p-5 rounded-full">
                       <Image src={img} alt="icons" width={40} height={40} className="block mx-auto brightness-0 invert group-hover:invert-[.2] group-hover:brightness-[.1]" draggable={false} />
                     </div> */}
