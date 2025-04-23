@@ -1,6 +1,10 @@
 "use client"
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import partners from "media/payment-partners.png"
+import methods from "media/payment-methods.png"
+
 const Footer = () => {
     const [data, setData] = useState({
         email: "",
@@ -118,6 +122,14 @@ const Footer = () => {
                                     <Link href="./refund-form">Refund Form</Link>
                                 </li>
                             </ul>
+                        </div>
+                        <div className="col-span-12 sm:col-span-6">
+                            <h4 className="md:text-[20px] text-lg leading-normal font-semibold mb-3">Payment Partners</h4>
+                            <Image src={partners} className="max-w-full md:max-w-[300px]" />
+                        </div>
+                        <div className="col-span-12 sm:col-span-6">
+                            <h4 className="md:text-[20px] text-lg leading-normal font-semibold mb-3 lg:text-right">Payment Methods</h4>
+                            <Image src={methods} className="max-w-full md:max-w-[300px] lg:ml-auto" />
                         </div>
                     </div>
                     <div className="flex flex-wrap md:justify-between justify-center xl:gap-x-5 gap-5 items-center mt-10">
