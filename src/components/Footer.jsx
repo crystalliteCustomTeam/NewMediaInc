@@ -74,11 +74,11 @@ const Footer = () => {
                 <div className="container">
                     <div className="grid grid-cols-12 lg:gap-x-10 gap-5 border-y border-white pt-5 pb-[50px]">
                         <div className="xl:col-span-5 lg:col-span-4 sm:col-span-6 col-span-12">
-                            <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3">About Company</h4>
+                            <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#dee56f]">About Company</h4>
                             <p className="text-[#8F8F8F] text-sm">We can manage your infrastructure affordably and seamlessly by applying our award-winning IT solutions. So you will get Customized IT Solutions.</p>
                         </div>
                         <div className="xl:col-span-3 lg:col-span-4 sm:col-span-6 col-span-12">
-                            <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3">Office Timings</h4>
+                            <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#dee56f]">Office Timings</h4>
                             <ul className="text-[#8F8F8F] text-sm">
                                 <li>Office Hours</li>
                                 <li>Mon-Fri</li>
@@ -86,7 +86,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="lg:col-span-4 sm:col-span-6 col-span-12">
-                            <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3">Legals</h4>
+                            <h4 className="md:text-[30px] text-xl leading-normal font-semibold mb-3 text-[#dee56f]">Legals</h4>
                             {/* <form
                                 autoComplete="off"
                                 spellCheck="false">
@@ -124,12 +124,12 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-span-12 sm:col-span-6">
-                            <h4 className="md:text-[20px] text-lg leading-normal font-semibold mb-3">Payment Partners</h4>
-                            <Image src={partners} className="max-w-full md:max-w-[300px]" />
+                            <h4 className="md:text-[20px] text-lg leading-normal text-[#dee56f] font-semibold mb-3">Payment Partners</h4>
+                            <Image src={partners} className="max-w-full md:max-w-[300px] bg-white rounded-lg p-2" />
                         </div>
                         <div className="col-span-12 sm:col-span-6">
-                            <h4 className="md:text-[20px] text-lg leading-normal font-semibold mb-3 lg:text-right">Payment Methods</h4>
-                            <Image src={methods} className="max-w-full md:max-w-[300px] lg:ml-auto" />
+                            <h4 className="md:text-[20px] text-lg leading-normal text-[#dee56f] font-semibold mb-3 lg:text-right">Payment Methods</h4>
+                            <Image src={methods} className="max-w-full md:max-w-[300px] bg-white rounded-lg p-2 lg:ml-auto" />
                         </div>
                     </div>
                     <div className="flex flex-wrap md:justify-between justify-center xl:gap-x-5 gap-5 items-center mt-10">
