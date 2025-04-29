@@ -16,6 +16,18 @@ const PrivacyPolicy = () => {
                             <p>We collect clients’ information via Email, Phone and Contact Us and Order Form and it is protected as per privacy policy set by Infiniti Media INC. Clients’ information is never disclosed, shared or sold to any third party services</p>
                             <p className="mt-2">Initially, the personal information we require is about clients’ name, company’s name, billing address, email address, secondary email, phone and fax numbers, order details and place of residence and some of which is optional. Along with this, we need information in creative brief in order to start working on your order.</p>
                             <p className="mt-2">Additionally, collection of information includes opinions pertaining to complaints, appreciation and comments about the product.Technical information which is collected and recorded includes your IP address, browser version, operating system and the date and time when you visit. Google Analytics or some similar tool or service is also used for collecting this data.</p>
+                            <p className="mt-2">We collect information to provide and improve our services effectively. The types of information we gather include:</p>
+                            <ul className="mt-2 ml-10">
+                                <li className="list-item list-disc mt-1">
+                                    Personal Information: Such as name, email address, phone number, and mailing address, collected when you engage with our services, subscribe to our newsletters, or contact us directly.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Technical Data: Including IP addresses, browser types, operating systems, and browsing behavior on our website, collected through cookies and similar technologies.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Service Usage Data: Details about your interactions with our services, such as project requirements, feedback, and support inquiries.
+                                </li>
+                            </ul>
                         </div>
 
                         <div className="mb-8">
@@ -38,8 +50,96 @@ const PrivacyPolicy = () => {
                         </div>
 
                         <div className="mb-8">
+                            <h2 className="text-xl font-semibold mb-2">USE OF INFORMATION</h2>
+                            <p>The information we collect is utilized to:</p>
+                            <ul className="mt-2 ml-10">
+                                <li className="list-item list-disc mt-1">
+                                    Deliver and manage our services.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Communicate with you regarding service updates, promotional offers, and company news, provided you have opted in to receive such communications.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Enhance our website and services by analyzing user behavior and preferences.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Comply with legal obligations and protect our rights and interests.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="mb-8">
+                            <h2 className="text-xl font-semibold mb-2">COMMUNICATION PRACTICES</h2>
+                            <p>We value clear and respectful communication. Our practices include:</p>
+                            <ul className="mt-2 ml-10">
+                                <li className="list-item list-disc mt-1">
+                                    Opt-In Communications: We send marketing and promotional materials only to individuals who have explicitly opted in to receive such information.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Service-Related Communications: Necessary notifications related to your projects or inquiries may be sent without prior opt-in but will be pertinent and non-promotional.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Frequency: We strive to limit our communications to a reasonable frequency to avoid overwhelming our recipients.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="mb-8">
+                            <h2 className="text-xl font-semibold mb-2"> OPT-IN AND OPT-OUT PROCEDURES</h2>
+                            <p>Your control over your information is paramount. You can:</p>
+                            <ul className="mt-2 ml-10">
+                                <li className="list-item list-disc mt-1">
+                                    Subscribe: Opt-in to our communications by subscribing through our website or during service engagements.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Unsubscribe: Opt-out at any time by clicking the "unsubscribe" link in our emails or by contacting us directly.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Manage Preferences: Update your communication preferences by reaching out to our support team.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="mb-8">
+                            <h2 className="text-xl font-semibold mb-2">DATA SECURITY</h2>
+                            <p>We implement robust security measures to protect your information, including:</p>
+                            <ul className="mt-2 ml-10">
+                                <li className="list-item list-disc mt-1">
+                                    Encryption: Utilizing SSL encryption for data transmission.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Access Controls: Restricting access to personal information to authorized personnel only.
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Regular Audits: Conducting periodic security assessments to identify and mitigate potential vulnerabilities.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="mb-8">
+                            <h2 className="text-xl font-semibold mb-2">THIRD-PARTY SHARING</h2>
+                            <p>We do not sell or rent your personal information. However, we may share data with trusted third parties to facilitate our services, such as:</p>
+                            <ul className="mt-2 ml-10">
+                                <li className="list-item list-disc mt-1">
+                                    Service Providers: Partners who assist in delivering our services (e.g., hosting providers, payment processors).
+                                </li>
+                                <li className="list-item list-disc mt-1">
+                                    Legal Obligations: When required by law or to protect our legal rights.
+                                </li>
+                            </ul>
+                            <p className="mt-2">
+                                All third parties are obligated to maintain the confidentiality and security of your information.
+                            </p>
+                        </div>
+
+
+                        <div className="mb-8">
                             <h2 className="text-xl font-semibold mb-2">AMENDMENTS</h2>
                             <p>Infiniti Media INC may amend its privacy policy for more strict security concerns if needed. However, the entire amendments about personal information security concerns will be declared with a prior notice of the effective date of amended or updated privacy policies.</p>
+                        </div>
+                        <div className="mb-8">
+                            <h2 className="text-xl font-semibold mb-2">POLICY UPDATES</h2>
+                            <p>We may update this policy to reflect changes in our practices or legal requirements. Significant changes will be communicated through our website or direct communication channels. We encourage you to review this policy periodically.</p>
                         </div>
 
                         <div className="mb-8">
