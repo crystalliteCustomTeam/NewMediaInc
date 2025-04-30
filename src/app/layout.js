@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
           <Footer />
         </main>
       </body>
+      <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=6ece006c"></script>
     </html>
   )
 }
