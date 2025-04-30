@@ -171,7 +171,7 @@ const Contact = () => {
         onChange={handleDataChange}
         className="bg-[#262626] rounded-xl py-4 px-4 block w-full mb-4 text-white outline-none placeholder:text-[#8F8F8F] text-[15px] font-normal leading-tight focus-visible:outline-none focus-visible:outline-[#dee56f] focus-visible:outline-1 border border-[#69727d] focus-visible:border-transparent transition-all duration-500 ease-in-out resize-none h-36"
       ></textarea>
-      <div className="flex items-center flex-wrap gap-2.5 mb-4">
+      <div className="flex items-start flex-wrap gap-2.5 mb-4">
         <input
           autoComplete="off"
           type="checkbox"
@@ -181,9 +181,12 @@ const Contact = () => {
           onChange={handleDataChange}
           className="bg-[#262626]  block w-5 h-5"
         />
-        <p className="text-white text-[12px]">
-          By submitting this form, you acknowledge that you have read and
-          understood our Refund Policy and agree to the terms stated above.
+        <p className="text-white text-[12px] w-[calc(100%-30px)]">
+          By checking this box, you agree to receive SMS messages from Infiniti
+          Media Inc. regarding your orders and promotional offers. Message
+          frequency may vary. Message and data rates may apply. Reply "STOP" to
+          unsubscribe or "HELP" for assistance. View our Privacy Policy and
+          Terms of Service.
         </p>
       </div>
       <button

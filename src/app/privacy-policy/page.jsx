@@ -207,8 +207,9 @@ const PrivacyPolicy = () => {
                   href="https://www.textline.com/blog/sms-opt-in-message-examples?utm_source=chatgpt.com"
                   target="_blank"
                 >
-                  Business Texting Software - Textline
+                  Business Texting Software{" "}
                 </a>
+                - Textline.
               </p>
             </div>
 
