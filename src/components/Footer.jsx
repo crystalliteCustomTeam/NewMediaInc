@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import partners from "media/payment-partners.png";
+import partners from "media/stripe_logo.png";
 import methods from "media/payment-methods.png";
 
 const Footer = () => {
@@ -78,9 +78,8 @@ const Footer = () => {
                 About Company
               </h4>
               <p className="text-[#8F8F8F] text-sm">
-                We can manage your infrastructure affordably and seamlessly by
-                applying our award-winning IT solutions. So you will get
-                Customized IT Solutions.
+                We can manage your infrastructure affordably and seamlessly by applying our
+                award-winning IT solutions. So you will get Customized IT Solutions.
               </p>
             </div>
             <div className="xl:col-span-3 lg:col-span-4 sm:col-span-6 col-span-12">
@@ -137,10 +136,7 @@ const Footer = () => {
               <h4 className="md:text-[20px] text-lg leading-normal text-[#dee56f] font-semibold mb-3">
                 Payment Partners
               </h4>
-              <Image
-                src={partners}
-                className="max-w-full md:max-w-[300px] bg-white rounded-lg p-2"
-              />
+              <Image src={partners} className=" bg-white rounded-lg p-2" />
             </div>
             <div className="col-span-12 sm:col-span-6">
               <h4 className="md:text-[20px] text-lg leading-normal text-[#dee56f] font-semibold mb-3 lg:text-right">
@@ -210,9 +206,7 @@ const Footer = () => {
                     <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
                   </svg>
                 </span>
-                <span className="block">
-                  5900 Balcones Dr STE 100 Austin, TX. 78731
-                </span>
+                <span className="block">5900 Balcones Dr STE 100 Austin, TX. 78731</span>
               </a>
             </div>
             <div>
