@@ -164,7 +164,7 @@ const Footer = () => {
               <h4 className="md:text-[20px] text-lg leading-normal text-[#dee56f] font-semibold mb-3">
                 Payment Partners
               </h4>
-              <Image src={partners} className=" bg-white rounded-lg p-2" />
+              <Image src={partners} className="w-[214px] bg-white rounded-lg p-2" />
             </div>
             <div className="col-span-12 sm:col-span-6">
               <h4 className="md:text-[20px] text-lg leading-normal text-[#dee56f] font-semibold mb-3 lg:text-right">
@@ -172,7 +172,7 @@ const Footer = () => {
               </h4>
               <Image
                 src={methods}
-                className="max-w-full md:max-w-[300px] bg-white rounded-lg p-2 lg:ml-auto"
+                className="max-w-[214px] bg-white rounded-lg p-2 lg:ml-auto"
               />
             </div>
           </div>
